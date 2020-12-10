@@ -1,0 +1,41 @@
+/*
+  Fichier de styles du header
+*/
+
+header {
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    background-color: #25292d;
+}
+
+header .header-container{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo-container{
+  width: 250px;
+  height: 100%;
+  background-color: #4f4f4f;
+}
+
+header .buttons-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header .buttons-container a {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-family: poppins;
+  font-weight: 500;
+  color:white;
+  font-size: 15px;
+  text-transform: uppercase;
+}

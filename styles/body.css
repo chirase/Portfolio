@@ -1,0 +1,33 @@
+.home-slider{
+  background-color: #373737;
+  padding: 90px 20%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0 0 0 / 25%),
+    rgba(0,0,0, 100)
+  ),url("../img/cyber.jpg");
+}
+
+.col-desc-slider{
+  width: 50%;
+}
+
+.col-desc-slider h1{
+ color: #ededed;
+ font-family: poppins;
+ font-size: 35px;
+ line-height: 1.4;
+}
+
+.col-desc-slider h1 span{
+font-weight: 400;
+font-size: 25px;
+display: block;
+}
+
+.col-desc-slider p{
+ color: #d1d1d1;
+ font-size: 19px;
+ font-family: roboto, arial;
+ line-height: 1.4;
+}
